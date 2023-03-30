@@ -151,9 +151,6 @@ h2 {
 }
 
 .content {
-  padding: 2rem;
-  width: 100%;
-  max-width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,5 +186,15 @@ h2 {
         line-height: 1.25;
       }
     }
+  }
+}
+
+.attribution {
+  text-align: center;
+  color: $grayish-blue;
+  font-weight: 400;
+  margin: 0 auto;
+  a {
+    color: $dark-blue;
   }
 }

@@ -1,0 +1,25 @@
+{
+  "name": "qr-code-component-main",
+  "version": "1.0.0",
+  "description": "frontend mentor challenge qr-code-component-main",
+  "default": "index.js",
+  
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "qr",
+    "code",
+    "componoent",
+    "qrcode"
+  ],
+  "author": "Milan Djumic",
+  "license": "ISC",
+  
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "util": "^0.12.5"
+  }
+}
